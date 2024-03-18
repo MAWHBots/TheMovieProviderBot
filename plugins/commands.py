@@ -502,7 +502,7 @@ async def start(client, message):
              ],
              [
               InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/mawhOrzzBackUp') #Don't change anything without contacting me @LazyDeveloperr
-             
+                ]
             ]
         )
     )
