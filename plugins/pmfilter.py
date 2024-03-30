@@ -1774,15 +1774,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/beautyofthemoviesx')
+            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/moviesandwebserieshubOrzz')
         ],[
-            InlineKeyboardButton('🔥𝐀𝐒.𝐄𝐃𝐈𝐓𝐈𝐎𝐍🔥', url='https://t.me/+MP3U7lQPFDRlOWQ1'),
+            InlineKeyboardButton('🔥MAWH Orzz🔥', url='https://t.me/+wZNMg4aXn55mMGQ1'),
             InlineKeyboardButton('✨️𝐋𝐘𝐑𝐈𝐂𝐒 𝐎𝐅 𝐊𝐃𝐑𝐀𝐌𝐀 𝐂𝐃𝐑𝐀𝐌𝐀✨️', url='https://t.me/kdramacdramainhindi0')
         ],[
-            InlineKeyboardButton('🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐙𝐨𝐧𝐞 🎬', url='https://t.me/beautyofthemoviesdiscussion')
+            InlineKeyboardButton('🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐙𝐨𝐧𝐞 🎬', url='https://t.me/MawhOrzzRequestGroup')
         ],[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/Beautyofsupportbot')
+            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/Orzzfileshare_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
