@@ -247,7 +247,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """ 
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ 📂 <i><a href="https://t.me/+wZNMg4aXn55mMGQ1">{file_name}</a></i>\n\n"""
+    CAPTION = """<b><a href="https://t.me/moviesandwebserieshubOrzz">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/moviesandwebserieshubOrzz>[moviesandwebserieshubOrzz]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
