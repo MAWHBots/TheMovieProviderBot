@@ -70,14 +70,6 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgUAAxkBAAIboWZNnH7R5c_6WL2_mVeRdmT3xMZ_AALLCwACZtI5VC65vXabo3IVNAQ")
         await asyncio.sleep(0.7)
         await m.delete()
-        m=await message.reply_sticker("cii")
-        await asyncio.sleep(0.5)
-        await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
-        await asyncio.sleep(0.7)
-        await m.delete()        
-        m=await message.reply_sticker("hii") 
-        await asyncio.sleep(1)
-        await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
@@ -139,7 +131,7 @@ async def start(client, message):
         m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
         await m.delete()
-        m=await message.reply_sticker("gamd")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIboWZNnH7R5c_6WL2_mVeRdmT3xMZ_AALLCwACZtI5VC65vXabo3IVNAQ")
         await asyncio.sleep(0.7)
         await m.delete()
         m=await message.reply_sticker("chutiyap")
